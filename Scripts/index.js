@@ -24,7 +24,7 @@ function redirect() {
     
     divs.forEach(function(div) {
         div.addEventListener("click", function() {
-            alert('foi')
+            window.location.href = "../Pages/simulado.html"
         });
     });
 
