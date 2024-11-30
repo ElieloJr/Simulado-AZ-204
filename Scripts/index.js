@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("Load the page")
 
     includeCtaButtons()
+    redirect()
 });
 
 function includeCtaButtons() {
@@ -12,9 +13,20 @@ function includeCtaButtons() {
         var buttonSimulate = document.createElement("button");
         buttonSimulate.className = "btn";
         buttonSimulate.innerText = "Simulado " + i
-        // colocar o direcionamento
 
         section.appendChild(buttonSimulate)
     }
+    
+}
+
+function redirect() {
+    var divs = document.querySelectorAll(".btn");
+    
+    divs.forEach(function(div) {
+        div.addEventListener("click", function() {
+            alert('foi')
+        });
+    });
+
     
 }
