@@ -1,4 +1,9 @@
-var questao1 = "You have the following requirements: " +
+var questao1 = "Note: This question is part of a series of questions that present the same scenario. Each question in" +
+"the series contains a unique solution that might meet the stated goals. Some question sets might" +
+" have more than one correct solution, while others might not have a correct solution." +
+"<br><br>After you answer a question in this section, you will NOT be able to return to it. As a result, these" +
+"questions will not appear on the review screen." + 
+"<br><br>You have the following requirements: " +
 "<br>• You must send events to thousands of customers that include hundreds of various event types." + 
 "<br>• The events must be filtered by event type before processing." +
 "<br>• Authentication and authorization must be handled by using Microsoft Entra ID." +
