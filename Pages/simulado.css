@@ -77,11 +77,37 @@ input {
     margin: 1rem;
 }
 
-.resetBtn {
+#resetBtn {
     background-color: #66656A;
     color: white;
     border: none;
     padding: 6px 14px;
     border-radius: 30px;
     margin-top: 1.4rem;
+}
+
+.flutuateButtons {
+    position: fixed;
+    display: flex;
+    left: 38vh;
+    bottom: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.flutuateButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2A4563;
+    padding: 4px 20px;
+    margin-left: 1rem;
+    width: 10rem;
+    height: 2rem;
+}
+
+.arrowSecond {
+    margin-left: 20px;
+    margin-right: 20px;
 }

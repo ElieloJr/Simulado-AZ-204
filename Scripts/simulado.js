@@ -42,11 +42,28 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     var resetBtn = document.createElement("button");
-    resetBtn.className = "resetBtn"
+    resetBtn.id = "resetBtn"
     resetBtn.innerHTML = "Redefinir Resposta"
     questionArea.appendChild(resetBtn)
+
+    resetAnswer()
 });
 
 function noImpletementFunctio() {
     alert("Ops... Função não implementada.")
+}
+
+function resetAnswer() {
+    var resetBtn = document.getElementById("resetBtn");
+    resetBtn.addEventListener("click", function() {
+        alert("Recomeçar Questão")
+    })
+}
+
+function backQuestion() {
+    alert("Questão Anterior")
+}
+
+function nextQuestion() {
+    alert("Próxima Questão")
 }
