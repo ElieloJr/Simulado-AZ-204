@@ -61,3 +61,27 @@ hr {
     margin-top: -10px;
     color: #2A4562;
 }
+
+#questionArea {
+    position: fixed;
+    border: 1px solid;
+    border-color: black;
+    left: 38vh;
+    top: 6.5rem;
+    height: 500px;
+    width: calc(100% - 50vh);
+    padding: 20px;
+}
+
+input {
+    margin: 1rem;
+}
+
+.resetBtn {
+    background-color: #66656A;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 30px;
+    margin-top: 1.4rem;
+}
