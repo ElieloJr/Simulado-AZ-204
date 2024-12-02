@@ -13,7 +13,7 @@ body {
 
 .examBar {
     margin: 1rem;
-    margin-bottom: 0px;
+    margin-bottom: 1.2rem;
     font-weight: bolder;
 }
 
@@ -21,11 +21,15 @@ hr {
     margin-top: 1rem;
 }
 
+.barButton {
+    margin: 0.7rem;
+    display: flex;
+}
+
 .inutilBtn {
-    /* background-color: red; */
-    margin-left: 0.6rem;
-    margin-top: 0.8rem;
-    background-color: none;
+    margin-left: 0.4rem;
+    background-color: #F4F4F6;
     font-weight: 400;
     border: none;
+    font-size: 0.9rem;
 }
