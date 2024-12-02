@@ -1,3 +1,3 @@
 function noImpletementFunctio() {
-    alert("Função não implementada")
+    alert("Ops... Função não implementada.")
 }
