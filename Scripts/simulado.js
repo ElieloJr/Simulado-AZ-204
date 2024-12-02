@@ -14,6 +14,11 @@ var alternativa4 = ""
 document.addEventListener("DOMContentLoaded", function() {
     console.log("Load the page")
 
+    makeQuestion()
+    resetAnswer()
+});
+
+function makeQuestion() {
     var questionArea = document.getElementById("questionArea");
 
     var enunciate = document.createElement("p");
@@ -45,9 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
     resetBtn.id = "resetBtn"
     resetBtn.innerHTML = "Redefinir Resposta"
     questionArea.appendChild(resetBtn)
-
-    resetAnswer()
-});
+}
 
 function noImpletementFunctio() {
     alert("Ops... Função não implementada.")
