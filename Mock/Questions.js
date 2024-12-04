@@ -1,4 +1,4 @@
-var questions = [
+var mock = [
     {
         "id": "1",
         "type": "",
